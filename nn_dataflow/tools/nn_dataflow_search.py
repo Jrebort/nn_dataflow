@@ -201,8 +201,13 @@ def do_scheduling(args):
     res_map['elapsed'] = telapsed
 
     stats = stats_dict(top, cost)
-    for key, val in stats.items():
-        res_map[key] = val
+    
+    # for key, val in stats.items():
+    #     res_map[key] = val
+    with open(args.net+'.csv','a+') as file:
+        file.write(str(stats['total_time'])+','+str(stats['total_cost'])+',')
+    #print("total_cost:{}".format(stats['total_cost']))
+    #print("total_time:{}".format(stats['total_time']))
 
     return res_map
 
@@ -319,9 +324,15 @@ def argparser():
 def main():
     ''' Main function. '''
     args = argparser().parse_args()
-    res = do_scheduling(args)
-    json.dump(res, sys.stdout, indent=2, default=lambda _: None)
-    sys.stdout.write('\n')
+    for i in range(1,6,1):
+        #if not i == 1:
+        #    i = i-1
+        args.batch = i
+       # print("batch size:{}".format(args.batch))
+        res = do_scheduling(args)
+    # res = do_scheduling(args) 
+    #json.dump(res, sys.stdout, indent=2, default=lambda _: None)
+    #sys.stdout.write('\n')
     return 0 if res else 2
 
 

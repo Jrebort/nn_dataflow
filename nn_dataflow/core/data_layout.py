@@ -204,6 +204,7 @@ class DataLayout(namedtuple('DataLayout', DATA_LAYOUT_LIST)):
 
         for frng in frngs[1:]:
             if frng.beg_end('b', 'h', 'w') != bhw_beg_end:
+                print(frng.beg_end('b','h','w'),bhw_beg_end)
                 raise ValueError('DataLayout: frng dim b, h, w mismatch.')
             nb, ne = frng.beg_end('n')
             if nb != n_end:

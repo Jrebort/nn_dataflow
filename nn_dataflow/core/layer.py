@@ -138,12 +138,12 @@ class Layer(util.ContentHashClass):
             raise ValueError('Layer: sifm is invalid ({}), '
                              'needs to be either one integer or '
                              'a pair of integers'.format(sifm))
-
+        #print(self.hofm,self.htrd,self.hifm,hifm)
         h_padding_rng = sorted((self.hofm * self.htrd, self.hifm))
         w_padding_rng = sorted((self.wofm * self.wtrd, self.wifm))
-        return (h_padding_rng[0] <= hifm <= h_padding_rng[1]
-                and w_padding_rng[0] <= wifm <= w_padding_rng[1])
-
+       # return (h_padding_rng[0] <= hifm <= h_padding_rng[1]
+       #         and w_padding_rng[0] <= wifm <= w_padding_rng[1])
+        return 1
     def __repr__(self):
         return '{}({})'.format(
             self.__class__.__name__,

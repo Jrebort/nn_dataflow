@@ -1,0 +1,358 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BAT	loop_enum.py	/^BAT = 2$/;"	v
+BATP	parallel_enum.py	/^BATP = 2$/;"	v
+BL	loop_blocking_scheme.py	/^    class BL():  # pylint: disable=too-few-public-methods$/;"	c	class:LoopBlockingScheme	inherits:
+BufShrScheme	buf_shr_scheme.py	/^class BufShrScheme():$/;"	c	inherits:
+COST_LIST	cost.py	/^COST_LIST = ['mac_op',$/;"	v
+ConvLayer	layer.py	/^class ConvLayer(Layer):$/;"	c	inherits:Layer
+Cost	cost.py	/^class Cost(namedtuple('Cost', COST_LIST)):$/;"	c	inherits:namedtuple('Cost', COST_LIST
+DATA_LAYOUT_LIST	data_layout.py	/^DATA_LAYOUT_LIST = ['frngs',$/;"	v
+DRAM	mem_hier_enum.py	/^DRAM = 0$/;"	v
+DRAM	node_region.py	/^    DRAM = 1$/;"	v	class:NodeRegion
+DataDimLoops	data_dim_loops.py	/^class DataDimLoops(util.ContentHashClass):$/;"	c	inherits:util.ContentHashClass
+DataLayout	data_layout.py	/^class DataLayout(namedtuple('DataLayout', DATA_LAYOUT_LIST)):$/;"	c	inherits:namedtuple('DataLayout', DATA_LAYOUT_LIST
+EltwiseLayer	layer.py	/^class EltwiseLayer(LocalRegionLayer):$/;"	c	inherits:LocalRegionLayer
+FCLayer	layer.py	/^class FCLayer(ConvLayer):$/;"	c	inherits:ConvLayer
+FIL	data_category_enum.py	/^FIL = 0$/;"	v
+FmapPosition	fmap_range.py	/^FmapPosition = namedtuple('FmapPosition', _FMAP_POSITION_ATTRS)$/;"	v
+FmapRange	fmap_range.py	/^class FmapRange(namedtuple('FmapRange', ['fp_beg', 'fp_end'])):$/;"	c	inherits:namedtuple('FmapRange', ['fp_beg', 'fp_end']
+FmapRangeMap	fmap_range.py	/^class FmapRangeMap():$/;"	c	inherits:
+GBUF	loop_blocking_scheme.py	/^        GBUF = 0$/;"	v	class:LoopBlockingScheme.BL
+GBUF	mem_hier_enum.py	/^GBUF = 1$/;"	v
+IFM	data_category_enum.py	/^IFM = 1$/;"	v
+IFM	loop_enum.py	/^IFM = 0$/;"	v
+INPP	parallel_enum.py	/^INPP = 3$/;"	v
+INPUT_LAYER_KEY	network.py	/^    INPUT_LAYER_KEY = '__INPUT__'$/;"	v	class:Network
+ITCN	mem_hier_enum.py	/^ITCN = 2$/;"	v
+InputLayer	layer.py	/^class InputLayer(Layer):$/;"	c	inherits:Layer
+IntRange	int_range.py	/^class IntRange(namedtuple('IntRange', ['beg', 'end'])):$/;"	c	inherits:namedtuple('IntRange', ['beg', 'end']
+InterLayerPipeline	inter_layer_pipeline.py	/^class InterLayerPipeline():$/;"	c	inherits:
+Layer	layer.py	/^class Layer(util.ContentHashClass):$/;"	c	inherits:util.ContentHashClass
+LayerTiming	pipeline_segment_timing.py	/^    LayerTiming = namedtuple('LayerTiming', ['time', 'node_time', 'dram_time',$/;"	v	class:PipelineSegmentTiming
+LocalRegionLayer	layer.py	/^class LocalRegionLayer(Layer):$/;"	c	inherits:Layer
+LoopBlockingScheme	loop_blocking_scheme.py	/^class LoopBlockingScheme():$/;"	c	inherits:
+MapStrategy	map_strategy.py	/^class MapStrategy():$/;"	c	inherits:
+MapStrategyEyeriss	map_strategy.py	/^class MapStrategyEyeriss(MapStrategy):$/;"	c	inherits:MapStrategy
+NESTED_LOOP_DESC_LIST	nested_loop_desc.py	/^NESTED_LOOP_DESC_LIST = ['loopcnt',$/;"	v
+NNDataflow	nn_dataflow.py	/^class NNDataflow():$/;"	c	inherits:
+NNDataflowScheme	nn_dataflow_scheme.py	/^class NNDataflowScheme(MutableMapping):$/;"	c	inherits:MutableMapping
+NODE_REGION_LIST	node_region.py	/^NODE_REGION_LIST = ['dim',$/;"	v
+NUM	data_category_enum.py	/^NUM = 3$/;"	v
+NUM	loop_blocking_scheme.py	/^        NUM = 2$/;"	v	class:LoopBlockingScheme.BL
+NUM	loop_enum.py	/^NUM = 3$/;"	v
+NUM	mem_hier_enum.py	/^NUM = 4$/;"	v
+NUM	node_region.py	/^    NUM = 2$/;"	v	class:NodeRegion
+NUM	parallel_enum.py	/^NUM = 4$/;"	v
+NestedLoopDesc	nested_loop_desc.py	/^class NestedLoopDesc(namedtuple('NestedLoopDesc', NESTED_LOOP_DESC_LIST)):$/;"	c	inherits:namedtuple('NestedLoopDesc', NESTED_LOOP_DESC_LIST
+Network	network.py	/^class Network():$/;"	c	inherits:
+NodeRegion	node_region.py	/^class NodeRegion(namedtuple('NodeRegion', NODE_REGION_LIST)):$/;"	c	inherits:namedtuple('NodeRegion', NODE_REGION_LIST
+OFM	data_category_enum.py	/^OFM = 2$/;"	v
+OFM	loop_enum.py	/^OFM = 1$/;"	v
+OFMP	parallel_enum.py	/^OFMP = 1$/;"	v
+OPTION_LIST	option.py	/^OPTION_LIST = ['sw_gbuf_bypass',$/;"	v
+OUTP	parallel_enum.py	/^OUTP = 0$/;"	v
+Option	option.py	/^class Option(namedtuple('Option', OPTION_LIST)):$/;"	c	inherits:namedtuple('Option', OPTION_LIST
+PARA_ENUM_APPL2FRNG	partition_scheme.py	/^PARA_ENUM_APPL2FRNG = [pe.BATP, pe.OUTP, pe.OFMP]$/;"	v
+PARTITION_SCHEME_LIST	partition_scheme.py	/^PARTITION_SCHEME_LIST = ['order',$/;"	v
+PROC	node_region.py	/^    PROC = 0$/;"	v	class:NodeRegion
+PartitionScheme	partition_scheme.py	/^class PartitionScheme(namedtuple('PartitionScheme', PARTITION_SCHEME_LIST)):$/;"	c	inherits:namedtuple('PartitionScheme', PARTITION_SCHEME_LIST
+PhyDim2	phy_dim2.py	/^class PhyDim2(namedtuple('PhyDim2', ['h', 'w'])):$/;"	c	inherits:namedtuple('PhyDim2', ['h', 'w']
+PipelineSegment	pipeline_segment.py	/^class PipelineSegment():$/;"	c	inherits:
+PipelineSegmentTiming	pipeline_segment_timing.py	/^class PipelineSegmentTiming():$/;"	c	inherits:
+PoolingLayer	layer.py	/^class PoolingLayer(LocalRegionLayer):$/;"	c	inherits:LocalRegionLayer
+REGF	loop_blocking_scheme.py	/^        REGF = 1$/;"	v	class:LoopBlockingScheme.BL
+REGF	mem_hier_enum.py	/^REGF = 3$/;"	v
+RESOURCE_LIST	resource.py	/^RESOURCE_LIST = ['proc_region',$/;"	v
+Resource	resource.py	/^class Resource(namedtuple('Resource', RESOURCE_LIST)):$/;"	c	inherits:namedtuple('Resource', RESOURCE_LIST
+SchedIndex	pipeline_segment.py	/^    SchedIndex = namedtuple('SchedIndex', ['sp_idx', 'tm_idx'])$/;"	v	class:PipelineSegment
+Scheduling	scheduling.py	/^class Scheduling():$/;"	c	inherits:
+SchedulingCondition	scheduling.py	/^                                     ])):$/;"	c	inherits:namedtuple('SchedulingCondition',                                      ['resource',                                       'constraint',                                       'ifmap_layout',                                       'sched_seq',                                      ]
+SchedulingConstraint	scheduling_constraint.py	/^class SchedulingConstraint(util.ContentHashClass):$/;"	c	inherits:util.ContentHashClass
+SchedulingConstraintLayerPipeline	scheduling_constraint.py	/^class SchedulingConstraintLayerPipeline(SchedulingConstraint):$/;"	c	inherits:SchedulingConstraint
+SchedulingResult	scheduling.py	/^                                  ])):$/;"	c	inherits:namedtuple('SchedulingResult',                                   ['scheme',                                    'ofmap_layout',                                    'sched_seq',                                   ]
+TopOfmUpdateLambda	pipeline_segment.py	/^    class TopOfmUpdateLambda(symbasic):$/;"	c	class:PipelineSegment	inherits:symbasic
+_FMAP_POSITION_ATTRS	fmap_range.py	/^_FMAP_POSITION_ATTRS = ['b', 'n', 'h', 'w']$/;"	v
+__add__	phy_dim2.py	/^    def __add__(self, other):$/;"	m	class:PhyDim2	file:	access:private
+__call__	pipeline_segment.py	/^        def __call__(self, arg_s, arg_r):$/;"	m	class:PipelineSegment.TopOfmUpdateLambda	file:	access:private
+__contains__	fmap_range.py	/^    def __contains__(self, fpos):$/;"	m	class:FmapRange	file:	access:private
+__contains__	network.py	/^    def __contains__(self, layer_name):$/;"	m	class:Network	file:	access:private
+__delitem__	nn_dataflow_scheme.py	/^    def __delitem__(self, layer_name):$/;"	m	class:NNDataflowScheme	file:	access:private
+__eq__	fmap_range.py	/^    def __eq__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__eq__	pipeline_segment.py	/^    def __eq__(self, other):$/;"	m	class:PipelineSegment	file:	access:private
+__ge__	fmap_range.py	/^    def __ge__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__getitem__	network.py	/^    def __getitem__(self, layer_name):$/;"	m	class:Network	file:	access:private
+__getitem__	nn_dataflow_scheme.py	/^    def __getitem__(self, layer_name):$/;"	m	class:NNDataflowScheme	file:	access:private
+__getitem__	pipeline_segment.py	/^    def __getitem__(self, index):$/;"	m	class:PipelineSegment	file:	access:private
+__gt__	fmap_range.py	/^    def __gt__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__hash__	fmap_range.py	/^    def __hash__(self):$/;"	m	class:FmapRange	file:	access:private
+__hash__	pipeline_segment.py	/^    def __hash__(self):$/;"	m	class:PipelineSegment	file:	access:private
+__init__	buf_shr_scheme.py	/^    def __init__(self, node_region, part, data_loops=None):$/;"	m	class:BufShrScheme	access:public
+__init__	data_dim_loops.py	/^    def __init__(self, *lpe_list):$/;"	m	class:DataDimLoops	access:public
+__init__	fmap_range.py	/^    def __init__(self):$/;"	m	class:FmapRangeMap	access:public
+__init__	inter_layer_pipeline.py	/^    def __init__(self, network, batch_size, resource, max_util_drop=0.05):$/;"	m	class:InterLayerPipeline	access:public
+__init__	layer.py	/^    def __init__(self, nifm, nofm, sfil=1):$/;"	m	class:FCLayer	access:public
+__init__	layer.py	/^    def __init__(self, nifm, nofm, sofm, sfil, strd=1):$/;"	m	class:ConvLayer	access:public
+__init__	layer.py	/^    def __init__(self, nofm, sofm, nreg):$/;"	m	class:EltwiseLayer	access:public
+__init__	layer.py	/^    def __init__(self, nofm, sofm, nreg, sreg, ntrd=1, strd=1):$/;"	m	class:LocalRegionLayer	access:public
+__init__	layer.py	/^    def __init__(self, nofm, sofm, sreg, strd=None):$/;"	m	class:PoolingLayer	access:public
+__init__	layer.py	/^    def __init__(self, nofm, sofm, strd=1):$/;"	m	class:Layer	access:public
+__init__	loop_blocking_scheme.py	/^    def __init__(self, nested_loop_desc, bl_ts, bl_ords, resource, bufshr,$/;"	m	class:LoopBlockingScheme	access:public
+__init__	map_strategy.py	/^    def __init__(self, layer, batch_size, occupancy, dim_array):$/;"	m	class:MapStrategy	access:public
+__init__	map_strategy.py	/^    def __init__(self, layer, batch_size, occupancy, dim_array):$/;"	m	class:MapStrategyEyeriss	access:public
+__init__	network.py	/^    def __init__(self, net_name):$/;"	m	class:Network	access:public
+__init__	nn_dataflow.py	/^    def __init__(self, network, batch_size, resource, cost, map_strategy):$/;"	m	class:NNDataflow	access:public
+__init__	nn_dataflow_scheme.py	/^    def __init__(self, network, input_layout, ext_layout_dict=None):$/;"	m	class:NNDataflowScheme	access:public
+__init__	pipeline_segment.py	/^    def __init__(self, seg, network, batch_size, resource, max_util_drop=0.05,$/;"	m	class:PipelineSegment	access:public
+__init__	pipeline_segment_timing.py	/^    def __init__(self, network, seg_idx):$/;"	m	class:PipelineSegmentTiming	access:public
+__init__	scheduling.py	/^    def __init__(self, layer, batch_size, cost, map_strategy_class):$/;"	m	class:Scheduling	access:public
+__init__	scheduling_constraint.py	/^    def __init__(self, topbat=0, topifm=0, topofm=0, fbifm=False, fbofm=False,$/;"	m	class:SchedulingConstraintLayerPipeline	access:public
+__init__	scheduling_constraint.py	/^    def __init__(self, topbat=0, topifm=0, topofm=0, update_dict=None):$/;"	m	class:SchedulingConstraint	access:public
+__iter__	network.py	/^    def __iter__(self):$/;"	m	class:Network	file:	access:private
+__iter__	nn_dataflow_scheme.py	/^    def __iter__(self):$/;"	m	class:NNDataflowScheme	file:	access:private
+__iter__	pipeline_segment.py	/^    def __iter__(self):$/;"	m	class:PipelineSegment	file:	access:private
+__le__	fmap_range.py	/^    def __le__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__len__	network.py	/^    def __len__(self):$/;"	m	class:Network	file:	access:private
+__len__	nn_dataflow_scheme.py	/^    def __len__(self):$/;"	m	class:NNDataflowScheme	file:	access:private
+__len__	pipeline_segment.py	/^    def __len__(self):$/;"	m	class:PipelineSegment	file:	access:private
+__lt__	fmap_range.py	/^    def __lt__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__mul__	phy_dim2.py	/^    def __mul__(self, other):$/;"	m	class:PhyDim2	file:	access:private
+__ne__	fmap_range.py	/^    def __ne__(self, other):$/;"	m	class:FmapRange	file:	access:private
+__ne__	pipeline_segment.py	/^    def __ne__(self, other):$/;"	m	class:PipelineSegment	file:	access:private
+__neg__	phy_dim2.py	/^    def __neg__(self):$/;"	m	class:PhyDim2	file:	access:private
+__new__	cost.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:Cost	file:	access:private
+__new__	data_layout.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:DataLayout	file:	access:private
+__new__	fmap_range.py	/^    def __new__(cls, fp_beg, fp_end):$/;"	m	class:FmapRange	file:	access:private
+__new__	int_range.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:IntRange	file:	access:private
+__new__	nested_loop_desc.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:NestedLoopDesc	file:	access:private
+__new__	node_region.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:NodeRegion	file:	access:private
+__new__	option.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:Option	file:	access:private
+__new__	partition_scheme.py	/^    def __new__(cls, order, pdims):$/;"	m	class:PartitionScheme	file:	access:private
+__new__	pipeline_segment.py	/^        def __new__(cls, *args):$/;"	m	class:PipelineSegment.TopOfmUpdateLambda	file:	access:private
+__new__	resource.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:Resource	file:	access:private
+__new__	scheduling.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:SchedulingCondition	file:	access:private
+__new__	scheduling.py	/^    def __new__(cls, *args, **kwargs):$/;"	m	class:SchedulingResult	file:	access:private
+__repr__	buf_shr_scheme.py	/^    def __repr__(self):$/;"	m	class:BufShrScheme	file:	access:private
+__repr__	data_dim_loops.py	/^    def __repr__(self):$/;"	m	class:DataDimLoops	file:	access:private
+__repr__	fmap_range.py	/^    def __repr__(self):$/;"	m	class:FmapRange	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:ConvLayer	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:EltwiseLayer	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:FCLayer	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:Layer	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:LocalRegionLayer	file:	access:private
+__repr__	layer.py	/^    def __repr__(self):$/;"	m	class:PoolingLayer	file:	access:private
+__repr__	pipeline_segment.py	/^    def __repr__(self):$/;"	m	class:PipelineSegment	file:	access:private
+__repr__	scheduling_constraint.py	/^    def __repr__(self):$/;"	m	class:SchedulingConstraint	file:	access:private
+__rmul__	phy_dim2.py	/^    __rmul__ = __mul__$/;"	v	class:PhyDim2
+__setitem__	nn_dataflow_scheme.py	/^    def __setitem__(self, layer_name, sched_result):$/;"	m	class:NNDataflowScheme	file:	access:private
+__str__	fmap_range.py	/^    def __str__(self):$/;"	m	class:FmapRangeMap	file:	access:private
+__str__	network.py	/^    def __str__(self):$/;"	m	class:Network	file:	access:private
+__sub__	phy_dim2.py	/^    def __sub__(self, other):$/;"	m	class:PhyDim2	file:	access:private
+_alloc_proc	pipeline_segment.py	/^    def _alloc_proc(self, max_util_drop=0.05):$/;"	m	class:PipelineSegment	access:public
+_alloc_resource	pipeline_segment.py	/^    def _alloc_resource(self, max_util_drop=0.05):$/;"	m	class:PipelineSegment	access:public
+_bl_tp	loop_blocking_scheme.py	/^    def _bl_tp(self, bl_lvls):$/;"	m	class:LoopBlockingScheme	access:public
+_calc_bufshr_fetch	loop_blocking_scheme.py	/^        def _calc_bufshr_fetch(subgrp_size, t_bs, loops_bs, loops_bot):$/;"	f	function:LoopBlockingScheme._set_bufshr	access:public
+_calc_bufshr_rotation_access	loop_blocking_scheme.py	/^    def _calc_bufshr_rotation_access(self, bufshr_rot_fetch):$/;"	m	class:LoopBlockingScheme	access:public
+_calc_bufshr_widefetch_access	loop_blocking_scheme.py	/^    def _calc_bufshr_widefetch_access(self, bufshr_wide_fetch):$/;"	m	class:LoopBlockingScheme	access:public
+_calc_sched_dag	inter_layer_pipeline.py	/^    def _calc_sched_dag(self):$/;"	m	class:InterLayerPipeline	access:public
+_calc_stats	loop_blocking_scheme.py	/^    def _calc_stats(self):$/;"	m	class:LoopBlockingScheme	access:public
+_calc_unitpass	map_strategy.py	/^    def _calc_unitpass(self):$/;"	m	class:MapStrategyEyeriss	access:public
+_check_prevs	network.py	/^    def _check_prevs(self, layer_name):$/;"	m	class:Network	access:public
+_compare	fmap_range.py	/^    def _compare(self, other):$/;"	m	class:FmapRange	access:public
+_coordinate	buf_shr_scheme.py	/^    def _coordinate(index, dim, idx_pr):$/;"	m	class:BufShrScheme	access:public
+_dfs	inter_layer_pipeline.py	/^        def _dfs(vertex):$/;"	f	function:InterLayerPipeline._topological_order	access:public
+_extract_attrs	fmap_range.py	/^    def _extract_attrs(self, *attrs):$/;"	m	class:FmapRange	access:public
+_filter_gen	scheduling_constraint.py	/^    def _filter_gen(gen, topt=0):$/;"	m	class:SchedulingConstraint	access:public
+_gen_bl_ts	loop_blocking.py	/^    def _gen_bl_ts():$/;"	f	function:_gen_loopblocking_perprocess	access:public
+_gen_index_single_level	loop_blocking_scheme.py	/^    def _gen_index_single_level(t_x, order_x):$/;"	m	class:LoopBlockingScheme	access:public
+_gen_input_layout	nn_dataflow.py	/^    def _gen_input_layout(self, options):$/;"	m	class:NNDataflow	access:public
+_gen_loopblocking_perprocess	loop_blocking.py	/^def _gen_loopblocking_perprocess($/;"	f	access:public
+_gen_repl	map_strategy.py	/^    def _gen_repl(self):$/;"	m	class:MapStrategyEyeriss	access:public
+_gen_vseg	inter_layer_pipeline.py	/^    def _gen_vseg(self, vertex_idx=0, done=None):$/;"	m	class:InterLayerPipeline	access:public
+_get_result	scheduling.py	/^    def _get_result(self, lbs, part, ofmap_layout, sched_seq, unit_nhops):$/;"	m	class:Scheduling	access:public
+_init_bufshr	loop_blocking_scheme.py	/^    def _init_bufshr(self, bufshr, options):$/;"	m	class:LoopBlockingScheme	access:public
+_init_deps	pipeline_segment.py	/^    def _init_deps(self):$/;"	m	class:PipelineSegment	access:public
+_init_sym_cstrs	pipeline_segment.py	/^    def _init_sym_cstrs(self):$/;"	m	class:PipelineSegment	access:public
+_innt_dim_loop	loop_blocking_scheme.py	/^    def _innt_dim_loop(self, dce, bl_t, bl_ord):$/;"	m	class:LoopBlockingScheme	access:public
+_is_dim_loop	loop_blocking_scheme.py	/^        def _is_dim_loop(lpe, dce, _dim_loops=dim_loops):$/;"	f	function:LoopBlockingScheme._set_bufshr	access:public
+_key_attrs	pipeline_segment.py	/^    def _key_attrs(self):$/;"	m	class:PipelineSegment	access:public
+_key_func	loop_blocking_scheme.py	/^        def _key_func(tuple_):$/;"	f	function:LoopBlockingScheme._set_bufshr	access:public
+_layer_schedule_search	nn_dataflow.py	/^    def _layer_schedule_search(self, layer_name, resource, constraint,$/;"	m	class:NNDataflow	access:public
+_layer_topifm_vals	pipeline_segment.py	/^        def _layer_topifm_vals(layer_name):$/;"	f	function:PipelineSegment._init_sym_cstrs	access:public
+_layer_topofm_vals	pipeline_segment.py	/^        def _layer_topofm_vals(layer_name):$/;"	f	function:PipelineSegment._init_sym_cstrs	access:public
+_lazify_topofm_symargs	pipeline_segment.py	/^    def _lazify_topofm_symargs(self, symargs, symvals):$/;"	m	class:PipelineSegment	access:public
+_loop_blocking_cmp_key	loop_blocking.py	/^def _loop_blocking_cmp_key(options, cost):$/;"	f	access:public
+_make_layer_timing	pipeline_segment_timing.py	/^    def _make_layer_timing(self, layer_name, sched_result):$/;"	m	class:PipelineSegmentTiming	access:public
+_min_subgrp_size	loop_blocking_scheme.py	/^        def _min_subgrp_size(*dce_list):$/;"	f	function:LoopBlockingScheme._set_bufshr	access:public
+_nhops_with_neighbor_dist	buf_shr_scheme.py	/^    def _nhops_with_neighbor_dist(self, dce, coord):$/;"	m	class:BufShrScheme	access:public
+_ofmap_layout	nn_dataflow_scheme.py	/^        def _ofmap_layout(layer_name):$/;"	f	function:NNDataflowScheme.fmap_layout	access:public
+_repl_fold	map_strategy.py	/^    def _repl_fold(self):$/;"	m	class:MapStrategyEyeriss	access:public
+_sched_seq_incr	pipeline_segment_timing.py	/^    def _sched_seq_incr(self, pos):$/;"	m	class:PipelineSegmentTiming	access:public
+_segment_schedule_search	nn_dataflow.py	/^    def _segment_schedule_search(self, segment, options):$/;"	m	class:NNDataflow	access:public
+_set_accfwd	loop_blocking_scheme.py	/^    def _set_accfwd(self, bufshr, options):$/;"	m	class:LoopBlockingScheme	access:public
+_set_bufshr	loop_blocking_scheme.py	/^    def _set_bufshr(self, resource, bufshr, options):$/;"	m	class:LoopBlockingScheme	access:public
+_set_fetch	loop_blocking_scheme.py	/^    def _set_fetch(self):$/;"	m	class:LoopBlockingScheme	access:public
+_set_unit_cnt	loop_blocking_scheme.py	/^    def _set_unit_cnt(self):$/;"	m	class:LoopBlockingScheme	access:public
+_simplify_symargs	pipeline_segment.py	/^    def _simplify_symargs(self, symargs, symvals):$/;"	m	class:PipelineSegment	access:public
+_simplify_symargs_one_pass	pipeline_segment.py	/^    def _simplify_symargs_one_pass(symargs, symvals):$/;"	m	class:PipelineSegment	access:public
+_solve_gbuf_reside	loop_blocking_solver.py	/^def _solve_gbuf_reside(nested_loop_desc, resource, reside_dce):$/;"	f	access:public
+_subgrp_dim	buf_shr_scheme.py	/^    def _subgrp_dim(self, dce, subgrp_size):$/;"	m	class:BufShrScheme	access:public
+_subs_symargs	pipeline_segment.py	/^    def _subs_symargs(symargs, *subs_args):$/;"	m	class:PipelineSegment	access:public
+_sweep	loop_blocking.py	/^    def _sweep():$/;"	f	function:_gen_loopblocking_perprocess	access:public
+_sweep_bufshr	loop_blocking_scheme.py	/^        def _sweep_bufshr():$/;"	f	function:LoopBlockingScheme._set_bufshr	access:public
+_t_data_cnt	loop_blocking_scheme.py	/^    def _t_data_cnt(self, bl_t):$/;"	m	class:LoopBlockingScheme	access:public
+_topological_order	inter_layer_pipeline.py	/^    def _topological_order(self, dag_vertex_set):$/;"	m	class:InterLayerPipeline	access:public
+_unit_nhops_to_fil	partition.py	/^def _unit_nhops_to_fil(layer, filter_nodes, fil_dict, fwd=False):$/;"	f	access:public
+_unit_nhops_to_ifm	partition.py	/^def _unit_nhops_to_ifm(ifmap_layout, ifm_dict, fwd=False):$/;"	f	access:public
+_unit_nhops_to_ofm	partition.py	/^def _unit_nhops_to_ofm(ofmap_layout, ofm_dict, fwd=False):$/;"	f	access:public
+_validate_frngs	data_layout.py	/^    def _validate_frngs(cls, frngs):$/;"	m	class:DataLayout	access:public
+_validate_parts	data_layout.py	/^    def _validate_parts(cls, parts, regions):$/;"	m	class:DataLayout	access:public
+active_node_pes	nn_dataflow_scheme.py	/^    def active_node_pes(sched_result):$/;"	m	class:NNDataflowScheme	access:public
+add	fmap_range.py	/^    def add(self, frng, val):$/;"	m	class:FmapRangeMap	access:public
+add	network.py	/^    def add(self, layer_name, layer, prevs=None):$/;"	m	class:Network	access:public
+add	pipeline_segment_timing.py	/^    def add(self, layer_name, sched_result):$/;"	m	class:PipelineSegmentTiming	access:public
+add_ext	network.py	/^    def add_ext(self, layer_name, layer):$/;"	m	class:Network	access:public
+allocate	node_region.py	/^    def allocate(self, request_list):$/;"	m	class:NodeRegion	access:public
+allocation	pipeline_segment.py	/^    def allocation(self):$/;"	m	class:PipelineSegment	access:public
+beg_end	fmap_range.py	/^    def beg_end(self, *attrs):$/;"	m	class:FmapRange	access:public
+cache_stats	scheduling.py	/^    def cache_stats(self):$/;"	m	class:Scheduling	access:public
+complete_fmap_range	data_layout.py	/^    def complete_fmap_range(self):$/;"	m	class:DataLayout	access:public
+complete_fmap_range	fmap_range.py	/^    def complete_fmap_range(self):$/;"	m	class:FmapRangeMap	access:public
+concat	data_layout.py	/^    def concat(cls, *data_layout_list):$/;"	m	class:DataLayout	access:public
+constraints_opt1	loop_blocking_solver.py	/^    def constraints_opt1(tx0, ty0):$/;"	f	function:_solve_gbuf_reside	access:public
+contains_node	node_region.py	/^    def contains_node(self, coordinate):$/;"	m	class:NodeRegion	access:public
+coordinate	partition_scheme.py	/^    def coordinate(self, node_region, pidx):$/;"	m	class:PartitionScheme	access:public
+copy	fmap_range.py	/^    def copy(self):$/;"	m	class:FmapRangeMap	access:public
+copy	nn_dataflow_scheme.py	/^    def copy(self):$/;"	m	class:NNDataflowScheme	access:public
+data_loops	layer.py	/^    def data_loops():$/;"	m	class:ConvLayer	access:public
+data_loops	layer.py	/^    def data_loops():$/;"	m	class:InputLayer	access:public
+data_loops	layer.py	/^    def data_loops():$/;"	m	class:Layer	access:public
+data_loops	layer.py	/^    def data_loops():$/;"	m	class:LocalRegionLayer	access:public
+data_size	loop_blocking_scheme.py	/^    def data_size(self, blvl, dce=None):$/;"	m	class:LoopBlockingScheme	access:public
+dim	buf_shr_scheme.py	/^    def dim(self, dce):$/;"	m	class:BufShrScheme	access:public
+dim	partition_scheme.py	/^    def dim(self, *paes):$/;"	m	class:PartitionScheme	access:public
+dram_bandwidth	nn_dataflow_scheme.py	/^    def dram_bandwidth(sched_result):$/;"	m	class:NNDataflowScheme	access:public
+drop	data_dim_loops.py	/^    def drop(self, lpe_indexed):$/;"	m	class:DataDimLoops	access:public
+empty	int_range.py	/^    def empty(self):$/;"	m	class:IntRange	access:public
+ext_layers	network.py	/^    def ext_layers(self):$/;"	m	class:Network	access:public
+filter_gen_ts	scheduling_constraint.py	/^    def filter_gen_ts(self, gen_tifm, gen_tofm, gen_tbat):$/;"	m	class:SchedulingConstraint	access:public
+filter_size	layer.py	/^    def filter_size(self, word_size=1):$/;"	m	class:ConvLayer	access:public
+firsts	network.py	/^    def firsts(self):$/;"	m	class:Network	access:public
+fmap_layout	nn_dataflow_scheme.py	/^    def fmap_layout(self, layers):$/;"	m	class:NNDataflowScheme	access:public
+fmap_range	partition_scheme.py	/^    def fmap_range(self, frng, pidx):$/;"	m	class:PartitionScheme	access:public
+fmap_range_map	data_layout.py	/^    def fmap_range_map(self):$/;"	m	class:DataLayout	access:public
+gen_constraint	pipeline_segment.py	/^    def gen_constraint(self, max_time_overhead=float('inf')):$/;"	m	class:PipelineSegment	access:public
+gen_index	loop_blocking_scheme.py	/^    def gen_index(self):$/;"	m	class:LoopBlockingScheme	access:public
+gen_loopblocking	loop_blocking.py	/^def gen_loopblocking(nested_loop_desc, resource, part, constraint, cost,$/;"	f	access:public
+gen_loopblocking_gbuf_reside	loop_blocking_solver.py	/^def gen_loopblocking_gbuf_reside(nested_loop_desc, resource, options):$/;"	f	access:public
+gen_nested_loop_desc	map_strategy.py	/^    def gen_nested_loop_desc(self):$/;"	m	class:MapStrategy	access:public
+gen_nested_loop_desc	map_strategy.py	/^    def gen_nested_loop_desc(self):$/;"	m	class:MapStrategyEyeriss	access:public
+gen_partition	partition.py	/^def gen_partition(layer, batch_size, dim_nodes, options, guaranteed=False):$/;"	f	access:public
+gen_pidx	partition_scheme.py	/^    def gen_pidx(self):$/;"	m	class:PartitionScheme	access:public
+gen_segment	inter_layer_pipeline.py	/^    def gen_segment(self, options):$/;"	m	class:InterLayerPipeline	access:public
+get	fmap_range.py	/^    def get(self, fpos):$/;"	m	class:FmapRangeMap	access:public
+get_access	loop_blocking_scheme.py	/^    def get_access(self):$/;"	m	class:LoopBlockingScheme	access:public
+get_access_cost	loop_blocking_scheme.py	/^    def get_access_cost(self, cost):$/;"	m	class:LoopBlockingScheme	access:public
+get_noc_access	loop_blocking_scheme.py	/^    def get_noc_access(self):$/;"	m	class:LoopBlockingScheme	access:public
+get_top_level_fetch	loop_blocking_scheme.py	/^    def get_top_level_fetch(self):$/;"	m	class:LoopBlockingScheme	access:public
+goal_opt1	loop_blocking_solver.py	/^    def goal_opt1(tx0, ty0):$/;"	f	function:_solve_gbuf_reside	access:public
+goal_opt2	loop_blocking_solver.py	/^    def goal_opt2(tx2, ty2):$/;"	f	function:_solve_gbuf_reside	access:public
+hifm	layer.py	/^    def hifm(self):$/;"	m	class:Layer	access:public
+hop_dist	phy_dim2.py	/^    def hop_dist(self, other):$/;"	m	class:PhyDim2	access:public
+ifmap_size	layer.py	/^    def ifmap_size(self, batch_size=1, word_size=1):$/;"	m	class:Layer	access:public
+input_layer	layer.py	/^    def input_layer(self):$/;"	m	class:ConvLayer	access:public
+input_layer	layer.py	/^    def input_layer(self):$/;"	m	class:InputLayer	access:public
+input_layer	layer.py	/^    def input_layer(self):$/;"	m	class:Layer	access:public
+input_layer	layer.py	/^    def input_layer(self):$/;"	m	class:LocalRegionLayer	access:public
+input_layer	network.py	/^    def input_layer(self):$/;"	m	class:Network	access:public
+is_applicable_to_fmap_range	partition_scheme.py	/^    def is_applicable_to_fmap_range(self):$/;"	m	class:PartitionScheme	access:public
+is_complete	fmap_range.py	/^    def is_complete(self):$/;"	m	class:FmapRangeMap	access:public
+is_in	data_layout.py	/^    def is_in(self, *regions):$/;"	m	class:DataLayout	access:public
+is_valid	loop_blocking_scheme.py	/^    def is_valid(self):$/;"	m	class:LoopBlockingScheme	access:public
+is_valid_padding_sifm	layer.py	/^    def is_valid_padding_sifm(self, sifm):$/;"	m	class:Layer	access:public
+is_valid_part	scheduling_constraint.py	/^    def is_valid_part(self, part):$/;"	m	class:SchedulingConstraint	access:public
+is_valid_top_bl	scheduling_constraint.py	/^    def is_valid_top_bl(self, top_bl_t, top_bl_ord):$/;"	m	class:SchedulingConstraint	access:public
+is_valid_top_bl	scheduling_constraint.py	/^    def is_valid_top_bl(self, top_bl_t, top_bl_ord):$/;"	m	class:SchedulingConstraintLayerPipeline	access:public
+items	fmap_range.py	/^    def items(self):$/;"	m	class:FmapRangeMap	access:public
+iter_node	node_region.py	/^    def iter_node(self):$/;"	m	class:NodeRegion	access:public
+lasts	network.py	/^    def lasts(self):$/;"	m	class:Network	access:public
+loops	data_dim_loops.py	/^    def loops(self):$/;"	m	class:DataDimLoops	access:public
+mem_hier_at	cost.py	/^    def mem_hier_at(self, mhe):$/;"	m	class:Cost	access:public
+nexts	network.py	/^    def nexts(self, layer_name):$/;"	m	class:Network	access:public
+nhops_rotate_all	buf_shr_scheme.py	/^    def nhops_rotate_all(self, dce, subgrp_size, rotation_unit_cnt=None):$/;"	m	class:BufShrScheme	access:public
+nhops_to	data_layout.py	/^    def nhops_to(self, fmap_range, *dest_list, **kwargs):$/;"	m	class:DataLayout	access:public
+nhops_wide_fetch_once	buf_shr_scheme.py	/^    def nhops_wide_fetch_once(self, dce, subgrp_size, fetch_width):$/;"	m	class:BufShrScheme	access:public
+nifm	layer.py	/^    def nifm(self):$/;"	m	class:Layer	access:public
+num_nodes	scheduling.py	/^    def num_nodes(self):$/;"	m	class:SchedulingResult	access:public
+offset	int_range.py	/^    def offset(self, val):$/;"	m	class:IntRange	access:public
+ofmap_size	layer.py	/^    def ofmap_size(self, batch_size=1, word_size=1):$/;"	m	class:Layer	access:public
+ops_per_neuron	layer.py	/^    def ops_per_neuron(self):$/;"	m	class:ConvLayer	access:public
+ops_per_neuron	layer.py	/^    def ops_per_neuron(self):$/;"	m	class:InputLayer	access:public
+ops_per_neuron	layer.py	/^    def ops_per_neuron(self):$/;"	m	class:Layer	access:public
+ops_per_neuron	layer.py	/^    def ops_per_neuron(self):$/;"	m	class:LocalRegionLayer	access:public
+option_list	option.py	/^    def option_list():$/;"	m	class:Option	access:public
+ordered_layer_list	inter_layer_pipeline.py	/^    def ordered_layer_list(self):$/;"	m	class:InterLayerPipeline	access:public
+ordered_loops	loop_blocking_scheme.py	/^    def ordered_loops(cls, bl_t, bl_ord, lpe_only=False, reverse=False):$/;"	m	class:LoopBlockingScheme	access:public
+overlap	fmap_range.py	/^    def overlap(self, other):$/;"	m	class:FmapRange	access:public
+overlap	int_range.py	/^    def overlap(self, other):$/;"	m	class:IntRange	access:public
+overlap_size	fmap_range.py	/^    def overlap_size(self, other):$/;"	m	class:FmapRange	access:public
+part_layer	partition_scheme.py	/^    def part_layer(self, layer, batch_size):$/;"	m	class:PartitionScheme	access:public
+part_neighbor_dist	partition_scheme.py	/^    def part_neighbor_dist(self, node_region, pae):$/;"	m	class:PartitionScheme	access:public
+perlayer_stats	nn_dataflow_scheme.py	/^    def perlayer_stats(self, stats_name):$/;"	m	class:NNDataflowScheme	access:public
+prevs	network.py	/^    def prevs(self, layer_name):$/;"	m	class:Network	access:public
+proc_data_range	partition.py	/^def proc_data_range(layer, batch_size, part, pidx):$/;"	f	access:public
+projection	partition_scheme.py	/^    def projection(self, region, appl2frng=False):$/;"	m	class:PartitionScheme	access:public
+range	fmap_range.py	/^    def range(self, *attrs):$/;"	m	class:FmapRange	access:public
+range	int_range.py	/^    def range(self):$/;"	m	class:IntRange	access:public
+region_size	layer.py	/^    def region_size(self):$/;"	m	class:LocalRegionLayer	access:public
+rel2abs	node_region.py	/^    def rel2abs(self, rel_coordinate):$/;"	m	class:NodeRegion	access:public
+retrieve_result	loop_blocking.py	/^    def retrieve_result():$/;"	f	function:gen_loopblocking	access:public
+retrieve_result_st	loop_blocking.py	/^    def retrieve_result_st():$/;"	f	function:gen_loopblocking	access:public
+rget_counter	fmap_range.py	/^    def rget_counter(self, frng):$/;"	m	class:FmapRangeMap	access:public
+rget_single	fmap_range.py	/^    def rget_single(self, frng):$/;"	m	class:FmapRangeMap	access:public
+schedule_search	nn_dataflow.py	/^    def schedule_search(self, options):$/;"	m	class:NNDataflow	access:public
+schedule_search	scheduling.py	/^    def schedule_search(self, condition, options):$/;"	m	class:Scheduling	access:public
+schedule_search_per_node	scheduling.py	/^    def schedule_search_per_node(self, part, resource, constraint, options):$/;"	m	class:Scheduling	access:public
+segment_dram_time_list	nn_dataflow_scheme.py	/^    def segment_dram_time_list(self):$/;"	m	class:NNDataflowScheme	access:public
+segment_time_list	nn_dataflow_scheme.py	/^    def segment_time_list(self):$/;"	m	class:NNDataflowScheme	access:public
+set_input_layer	network.py	/^    def set_input_layer(self, input_layer):$/;"	m	class:Network	access:public
+size	buf_shr_scheme.py	/^    def size(self, dce):$/;"	m	class:BufShrScheme	access:public
+size	fmap_range.py	/^    def size(self, *attrs):$/;"	m	class:FmapRange	access:public
+size	int_range.py	/^    def size(self):$/;"	m	class:IntRange	access:public
+size	partition_scheme.py	/^    def size(self, *paes):$/;"	m	class:PartitionScheme	access:public
+size	phy_dim2.py	/^    def size(self):$/;"	m	class:PhyDim2	access:public
+skip_conv	loop_blocking.py	/^def skip_conv(bl_ts, bl_ords):$/;"	f	access:public
+take	data_dim_loops.py	/^    def take(self, lpe_indexed):$/;"	m	class:DataDimLoops	access:public
+time	pipeline_segment_timing.py	/^    def time(self):$/;"	m	class:PipelineSegmentTiming	access:public
+time_overhead	pipeline_segment_timing.py	/^    def time_overhead(self):$/;"	m	class:PipelineSegmentTiming	access:public
+total_access_at_of	nested_loop_desc.py	/^    def total_access_at_of(self, mhe, dce=None):$/;"	m	class:NestedLoopDesc	access:public
+total_accesses	nn_dataflow_scheme.py	/^    def total_accesses(self):$/;"	m	class:NNDataflowScheme	access:public
+total_accesses	scheduling.py	/^    def total_accesses(self):$/;"	m	class:SchedulingResult	access:public
+total_cost	nn_dataflow_scheme.py	/^    def total_cost(self):$/;"	m	class:NNDataflowScheme	access:public
+total_cost	scheduling.py	/^    def total_cost(self):$/;"	m	class:SchedulingResult	access:public
+total_dram_time	scheduling.py	/^    def total_dram_time(self):$/;"	m	class:SchedulingResult	access:public
+total_filter_size	layer.py	/^    def total_filter_size(self, word_size=1):$/;"	m	class:ConvLayer	access:public
+total_ifmap_size	layer.py	/^    def total_ifmap_size(self, batch_size=1, word_size=1):$/;"	m	class:Layer	access:public
+total_noc_hops	nn_dataflow_scheme.py	/^    def total_noc_hops(self):$/;"	m	class:NNDataflowScheme	access:public
+total_noc_hops	scheduling.py	/^    def total_noc_hops(self):$/;"	m	class:SchedulingResult	access:public
+total_node_time	scheduling.py	/^    def total_node_time(self):$/;"	m	class:SchedulingResult	access:public
+total_ofmap_size	layer.py	/^    def total_ofmap_size(self, batch_size=1, word_size=1):$/;"	m	class:Layer	access:public
+total_ops	layer.py	/^    def total_ops(self, batch_size=1):$/;"	m	class:Layer	access:public
+total_ops	nested_loop_desc.py	/^    def total_ops(self):$/;"	m	class:NestedLoopDesc	access:public
+total_ops	nn_dataflow_scheme.py	/^    def total_ops(self):$/;"	m	class:NNDataflowScheme	access:public
+total_ops	scheduling.py	/^    def total_ops(self):$/;"	m	class:SchedulingResult	access:public
+total_proc_time	scheduling.py	/^    def total_proc_time(self):$/;"	m	class:SchedulingResult	access:public
+total_time	nn_dataflow_scheme.py	/^    def total_time(self):$/;"	m	class:NNDataflowScheme	access:public
+total_time	scheduling.py	/^    def total_time(self):$/;"	m	class:SchedulingResult	access:public
+unit_access_at_of	nested_loop_desc.py	/^    def unit_access_at_of(self, mhe, dce=None):$/;"	m	class:NestedLoopDesc	access:public
+unit_nhops_to_proc_region	partition.py	/^def unit_nhops_to_proc_region(layer, batch_size, region, part,$/;"	f	access:public
+update_by_prev	scheduling_constraint.py	/^    def update_by_prev(self, prev_results):$/;"	m	class:SchedulingConstraint	access:public
+usize_gbuf_of	nested_loop_desc.py	/^    def usize_gbuf_of(self, dce):$/;"	m	class:NestedLoopDesc	access:public
+usize_regf_of	nested_loop_desc.py	/^    def usize_regf_of(self, dce):$/;"	m	class:NestedLoopDesc	access:public
+utilization	map_strategy.py	/^    def utilization(self):$/;"	m	class:MapStrategy	access:public
+utilization	map_strategy.py	/^    def utilization(self):$/;"	m	class:MapStrategyEyeriss	access:public
+wifm	layer.py	/^    def wifm(self):$/;"	m	class:Layer	access:public
